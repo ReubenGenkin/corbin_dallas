@@ -1,0 +1,46 @@
+
+:root {
+    --primary-color: red
+    --secondary-color: blue
+    --tertiary-color: yellow
+    --background-color: gray
+}
+
+
+
+
+
+/* work start*/
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.work-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 25%;
+    font-size: 50px;
+    border-right: 3px solid black;
+    padding-right: 30px;
+}
+
+.project-container {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.work-project img {
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+/* work end*/

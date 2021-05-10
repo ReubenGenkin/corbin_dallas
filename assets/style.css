@@ -79,9 +79,16 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
-header nav ul li a:active {
+/*header nav ul li a:active {
   background-color: gray;
   z-index: 99999;
+}
+*/
+
+header nav ul li a:focus {
+  background-color: gray;
+  font-style: bold;
+  
 }
 
 
@@ -178,6 +185,8 @@ header nav ul li a:active {
 
 .work-project {
   background-image: url("./images/Godzilla_2021.jpg");
+  background-position: center;
+  background-size: cover;
   width: 45%;
   height: 200px;
   margin: 20px 0 0 0;
